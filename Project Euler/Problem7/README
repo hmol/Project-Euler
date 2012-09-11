@@ -1,0 +1,12 @@
+﻿Problem 7
+
+By listing the first six prime numbers: 2, 3, 5, 7, 11, and 13, we can see that the 6th prime is 13.
+What is the 10 001st prime number?
+
+---
+
+Solution
+
+Here my starting point is to generate a high number in which we are sure there are over 10001 primenumbers. Looking at the 4 first primes 2, 3, 5, 7, we see that 4^2 will generate a number(16) that is higher than the lagrest prime in the sequece (7). 
+So I will here postulate that using the 2-power of the number of primes we want to find i.e: 10001^2, will generate a number in wich the range of primes will count higher than 10001. 
+For this purpose, the algoritm of Eratosthenes is cool :-)

@@ -1,0 +1,12 @@
+﻿Problem 3
+
+The prime factors of 13195 are 5, 7, 13 and 29.
+What is the largest prime factor of the number 600851475143 ?
+
+---
+
+My solution is to start with the square root of the number, sqrt(600851475143), and incrementally with 1 count down towards 0.
+I use modulus on each of these "count downs", as such: (600851475143 % i).
+If the modulus operation reveals that the remainder is zero, we know that the numbers add up. 
+If this is true, the number is run trough my isPrime() method, to SUPRISE!! check if the number is prime. 
+If so, the answer is given :-)

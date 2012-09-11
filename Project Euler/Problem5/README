@@ -1,0 +1,13 @@
+﻿Problem 5
+
+2520 is the smallest number that can be divided by each of the numbers from 1 to 10 without any remainder.
+What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?
+
+---
+Solution
+
+Here I use a for-loop inside another for-loop to chech each number incremented with 2520 (i+=2520). 
+The reason I do this is because the problem-text tells us that 2520 is the lowest number that can be evenly divisible by 1-10.
+On every increment of 2520 I check if it is divisable with the numbers from 1-20 (second for-statement).
+
+
