@@ -1,1 +1,3 @@
 My solution to some of the problems at http://projecteuler.net
+
+All code published by now is in C# (standard console application), but I will also try to implement the solutions in a functional programming language. This might take some time, but since I wrote it here, mabye I will remember it sometime in the near future.
