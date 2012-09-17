@@ -24,8 +24,7 @@ namespace Problem9
                     b = 2 * x * y;
                     c = Math.Pow(x, 2) + Math.Pow(y, 2);
 
-                    if (a + b + c == 1000 && Math.Pow(a, 2) + Math.Pow(b, 2) == Math.Pow(c, 2))
-                        loop = false;
+                    loop = !(a + b + c == 1000 && Math.Pow(a, 2) + Math.Pow(b, 2) == Math.Pow(c, 2));
                 }
             }
             
