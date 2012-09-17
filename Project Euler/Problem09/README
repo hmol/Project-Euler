@@ -6,5 +6,10 @@ For example, 3^2 + 4^2 = 9 + 16 = 25 = 52.
 There exists exactly one Pythagorean triplet for which a + b + c = 1000. Find the product abc.
 
 ---
+Solution
 
-NOT FINISHED! NOT TO SHELF: READ UP ON Pythagorean triplet!!
+To solve this problem I chose to implement the slightly genious formula of Euclid ( http://en.wikipedia.org/wiki/Pythagorean_triple#Proof_of_Euclid.27s_formula ).
+Given integers x and y,
+      A = x2 - y2
+      B = 2xy
+      C = x2 + y2
